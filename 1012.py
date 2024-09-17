@@ -1,0 +1,22 @@
+a = input().split()
+
+nr1 = float(a[0])
+nr2 = float(a[1])
+nr3 = float(a[2])
+
+#a)
+areatri = ((nr1*nr3)/2)
+#b)
+areacir = (3.14159 * (nr3**2))
+#c)
+areatra = (((nr1 + nr2) * nr3)/2)
+#d)
+areaqua = (nr2 * nr2)
+#e)
+arearet = (nr1 * nr2)
+
+print("TRIANGULO: %.3f" % areatri)
+print("CIRCULO: %.3f" % areacir)
+print("TRAPEZIO: %.3f" % areatra)
+print("QUADRADO: %.3f" % areaqua)
+print("RETANGULO: %.3f" % arearet)
